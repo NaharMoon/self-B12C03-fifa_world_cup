@@ -1,0 +1,170 @@
+/* universal styles */
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1414px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    background-color: violet;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+.text-color-white{
+    color: rgb(255, 255, 255);
+}
+.text-color-black{
+    color: rgb(22, 22, 22);
+}
+.btn-style{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 0, 0);
+    padding: 16px 25px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+/* banner styling stars */
+
+.banner-conteiner {
+    margin-top: 80px;
+    border-radius: 30px;
+    background: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.banner-left{
+    max-width: 40%;
+    margin-left: 125px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner-left h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.banner-left p{
+    margin-top: 19px;
+    margin-bottom: 30px;
+}
+.banner-right{
+    max-width: 43%;
+    margin-right: 20px;
+    margin-top: 33px;
+}
+.banner-right img{
+    display: block;
+    
+}
+
+/* banner styling ends */
+
+/* main content stiling starts */
+
+.main-content-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 55px;
+}
+
+/* button container starts */
+
+.btn-container{
+    width: 312px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.btn-container .btn-style:nth-child(1){
+    background-color: white;
+    color: black;
+}
+.btn-container .btn-style:nth-child(2){
+    background-color: white;
+    color: black;
+}
+
+/* button container ends */
+
+/* card container styling starts */
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 56px;
+    row-gap: 24px;
+}
+.live-match-card{
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 370px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+.card-image img{
+    border-radius: 10px 10px 0px 0px;
+}
+.card-info{
+    padding: 20px;
+}
+.card-info .btn-style{
+    padding: 4px 17px;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+.card-info h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card-icon-container{
+    display: flex;
+    color: rgba(22, 22, 22, 0.7);
+    gap: 44px;
+}
+
+/* card container styling ends */
+
+
+/* main content stiling ends */
+
+/* footer styling starts */
+
+footer{
+    margin-top: 130px;
+    height: 444px;
+    background-color: rgb(122, 122, 122);
+}
+/* footer nav{
+    color: rgb(185, 185, 185);
+} */
+
+/* footer styling ends */
